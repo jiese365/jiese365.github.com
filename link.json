@@ -1,33 +1,38 @@
 
     [
+        {
+            "name": "断欲圣典",
+            "url": "https://fosss.org/book/Haitao/jieyin.html",
+            "description":"戒色"
+        }
             {
                 "name" : "戒色吧",
-                 "url" : "http://www.jieseba.org",
+                 "url" : "https://www.jieseba.org",
                  "description": "戒色吧"
             },
             {
                 "name" : "戒色导航",
-                 "url" : "http://dh.jieseba.org/",
+                 "url" : "https://dh.jieseba.org/",
                  "description": "戒色导航"
             },
             {
                 "name" : "百度戒色吧",
-                 "url" : "http://tieba.baidu.com/f?kw=%E6%88%92%E8%89%B2&ie=utf-8",
+                 "url" : "https://tieba.baidu.com/f?kw=%E6%88%92%E8%89%B2&ie=utf-8",
                  "description": "百度戒色吧"
             },
             {
                 "name" : "戒色论坛",
-                 "url" : "http://www.jiese.org/",
+                 "url" : "https://www.jiese.org/",
                  "description": "百度戒色吧"
             },
             {
                 "name" : "戒色360",
-                 "url" : "http://www.jiese.org/",
+                 "url" : "https://www.jiese.org/",
                  "description": "戒色360"
             },
             {
                 "name" : "戒淫网",
-                 "url" : "http://www.jiey.org/",
+                 "url" : "https://www.jiey.org/",
                  "description": "戒淫网"
             },
 			{

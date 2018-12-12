@@ -1,7 +1,7 @@
 function body_load() {
     // 
-    frameLoadSub("showWindow","http://fosss.org/book/Haitao/jieyin.html");
-
+   // frameLoadSub("showWindow","https://jiese365.github.io/zouxiangguangming");
+   frameLoadSub("showWindow","https://fosss.org/book/Haitao/jieyin.html");
     changeFrameHeight("showWindow",75);
 
     
