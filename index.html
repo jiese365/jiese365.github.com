@@ -1,21 +1,111 @@
-﻿
-<html> 
-	<head> 
-		<title>戒色365,每一天都是在战斗</title>
-	</head> 
-		
-<body>
-	
-	<header>
-		<h1>戒色365</h1>
-		<p>戒除邪淫，更好生活</p>
-	</header>
+﻿<!DOCTYPE html>
+<html>
+    <head> 
+        <title>戒色365,每一天都是在战斗</title>
+        <meta charset="utf-8">
+		<meta name="keywords" content="jiese365,戒色,戒邪淫,戒色文章,戒手淫,戒,jiese,戒为良药,以戒为师,走向光明,戒色吧,戒淫网,戒撸管,戒撸">
+		<meta name="author" content="jiese365">
+		<meta name="description" content="整理和收集戒色文章，戒色经验，帮助更多戒友迷途知返">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, minimum-scale=1, user-scalable=no">
+       
+       <style type ="text/css">
+            div#test_div{
+                color:red;
+            }
+            span{
+                color: rgb(135, 138, 135);
+            }
+            div#global{
+                /*设置宽度，设置百分之百可根据浏览器自适应宽度*/
+                width:100%;
+                /*设置高度为950px 是设置实体高度，不能自适应*/
+                height:950px;
+                /* 设置背景颜色，方便区分布局*/
+                background-color:silver;
+            }
+            div#heading{
+                width:100%;
+                height:70px;
+                background-color:rgb(11, 39, 71);
+                color:white;
+            }
+            
+            #content_menu{
+                width:10%;
+                height:700px;
+                background-color:#c5E9F3;
+                /* 定义浮动，不定义的话，界面会乱*/
+                float:left;
+            }
+            #content_body{
+                width:90%;
+                height:700px;
+                background-color:#c3bbbc;
+                float: right;
+            }
+            #floor{
+                /*删除浮动，不然会被其他浮动给遮住*/
+                clear:both;
+                height:100px;
+                background-color:rgb(103, 189, 95);
+            }
+           
+            #showWindow {
+                width: 100%;
+                height:100%;
+                }
 
- <div>
- 
-<a href="https://jiese365.github.io/zouxiangguangming/">走向光明</a>
- 
- </div>
-</body>
 
-</html> 
+        </style> 
+         <script src="script/comm.js"></script>
+         <script src="script/jquery-3.3.1.min.js"></script>
+         <script>
+                window.onresize=function() {  
+                    changeFrameHeight('showWindow',75);  
+                } 
+
+                loadJson();
+               </script>
+    </head>
+    <body onload="body_load()">
+        <!-- 在这里控制全局的页面，定义div的id是"global" -->
+        
+            
+            <div id="heading">
+                <header class="top" > 
+                    <h1 style="margin:0px;">戒色365</h1>
+                    <p style="border-top: 0ch; margin-top:0ch;">&nbsp;&nbsp;&nbsp;&nbsp;戒除邪淫，更好生活</p>
+            </header>
+
+            </div>
+            <div id="content_menu">
+                
+                <ul>
+                    <!-- <li><a href='#' onclick='frameLoadSub2("showWindow",info["url"],75)'>戒色吧</a></li> -->
+                    <li><a href="#" onclick='frameLoadSub2("showWindow","http://www.jieseba.org/",75)'>戒色吧</a></li>
+                    <li><a href="#" onclick='frameLoadSub2("showWindow"," http://dh.jieseba.org/",75)'>戒色导航</a></li>
+                    <li><a href="#" onclick='frameLoadSub2("showWindow","http://www.jiese.org/",75)'>戒色论坛</a></li>
+                    <li><a href="#" onclick='frameLoadSub2("showWindow","http://www.jiese360.cn/",75)'>戒色360</a></li>
+                    <li><a href="#" onclick='frameLoadSub2("showWindow","http://www.jiey.org/",75)'>戒淫网</a></li>
+                    <li><a href="#" onclick='frameLoadSub2("showWindow","http://tieba.baidu.com/f?kw=%E6%88%92%E8%89%B2&ie=utf-8",75)'>百度戒色吧</a></li>
+                </ul>
+            </div>
+            <div id="content_body">
+                 <div style="width:100%;height:100%;" > 
+                        <iframe   class="showWindow" id="showWindow" frameborder="1" height ="100%" width="100%"
+                            sandbox="allow-same-origin allow-scripts allow-top-navigation allow-modals " onload='changeFrameHeight("showWindow",75);'  ></iframe>
+                 </div>
+            </div>
+            <div id="floor">
+				<section>
+				<p>  <br>
+ 						&nbsp;&nbsp;戒色，是一辈子要坚持下去的事。不要让自己变得行尸走肉，麻木不仁，赶快行动吧。
+				</p>
+			</section>
+			</div>
+            </div>
+              
+    </body>
+</html>
+
+<!-- http://www.veryhuo.com/down/html/96258.html -->
