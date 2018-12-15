@@ -2,17 +2,17 @@
     [
         {
             "name": "断欲圣典",
-            "url": "https://fosss.org/book/Haitao/jieyin.html",
+            "url": "http://fosss.org/book/Haitao/jieyin.html",
             "description":"戒色"
-        }
+        },
             {
                 "name" : "戒色吧",
-                 "url" : "https://www.jieseba.org",
+                 "url" : "http://www.jieseba.org",
                  "description": "戒色吧"
             },
             {
                 "name" : "戒色导航",
-                 "url" : "https://dh.jieseba.org/",
+                 "url" : "http://dh.jieseba.org/",
                  "description": "戒色导航"
             },
             {
@@ -22,24 +22,40 @@
             },
             {
                 "name" : "戒色论坛",
-                 "url" : "https://www.jiese.org/",
+                 "url" : "http://www.jiese.org/",
                  "description": "百度戒色吧"
             },
             {
                 "name" : "戒色360",
-                 "url" : "https://www.jiese.org/",
+                 "url" : "http://www.jiese360.com/",
                  "description": "戒色360"
             },
             {
                 "name" : "戒淫网",
-                 "url" : "https://www.jiey.org/",
+                 "url" : "http://www.jiey.org/",
                  "description": "戒淫网"
             },
 			{
 				"url":"https://jiese365.github.io/zouxiangguangming/",
 				"name": "走向光明",
 				"description":"走向光明"
-			}
+            }
+            ,
+            {
+               "url": "https://www.qiusuoo.com/",
+               "name":"求索",
+               "description":"戒色博客"
+            },
+            {
+                "url":"https://www.9ilu.com/",
+                "name":"戒色人",
+                "description":"戒色人"
+            },
+            {
+                "url":"http://www.pengxinboshi.com/",
+                "name": "彭鑫博士网站",
+                "description":"彭鑫博士网站"
+            }
 ]   
 
 
